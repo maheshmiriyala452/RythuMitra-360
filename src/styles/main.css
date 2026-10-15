@@ -1,0 +1,236 @@
+/* ==========================================================================
+   RythuMitra 360 — Design System Tokens & Global Styles
+   ========================================================================== */
+
+:root {
+  /* Brand Agriculture Color Palette */
+  --primary-green: #1b5e20;
+  --primary-light: #2e7d32;
+  --primary-subtle: #e8f5e9;
+  --accent-spring: #4caf50;
+  --accent-emerald: #10b981;
+  --accent-amber: #f59e0b;
+  --accent-earth: #8d6e63;
+  --danger-crimson: #ef4444;
+  --info-sky: #0284c7;
+
+  /* Surfaces & Backgrounds */
+  --bg-app: #f4f7f4;
+  --bg-card: #ffffff;
+  --bg-sidebar: #0d2812;
+  --bg-sidebar-hover: #16401d;
+  --bg-sidebar-active: #1e5a29;
+
+  /* Text Colors */
+  --text-main: #1e293b;
+  --text-muted: #64748b;
+  --text-light: #94a3b8;
+  --text-inverse: #ffffff;
+
+  /* Borders & Shadows */
+  --border-subtle: #e2e8f0;
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -4px rgba(0, 0, 0, 0.04);
+  --shadow-green: 0 10px 25px -5px rgba(27, 94, 32, 0.15);
+
+  /* Typography */
+  --font-heading: 'Outfit', sans-serif;
+  --font-body: 'Plus Jakarta Sans', sans-serif;
+
+  /* Border Radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+}
+
+/* Base Reset & Typography */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--bg-app);
+  color: var(--text-main);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2, h3, h4, h5, h6, .brand-font {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  color: #0f2413;
+}
+
+/* Glassmorphism & Custom Card Classes */
+.farm-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.farm-card:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.glass-header {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+/* Custom Farm Buttons */
+.btn-farm {
+  background: linear-gradient(135deg, #2e7d32 0%, #1b5e20 100%);
+  color: #ffffff;
+  border: none;
+  font-weight: 600;
+  border-radius: var(--radius-sm);
+  padding: 0.55rem 1.25rem;
+  box-shadow: 0 4px 10px rgba(46, 125, 50, 0.2);
+  transition: all 0.2s ease;
+}
+
+.btn-farm:hover, .btn-farm:focus {
+  background: linear-gradient(135deg, #388e3c 0%, #2e7d32 100%);
+  color: #ffffff;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 14px rgba(46, 125, 50, 0.3);
+}
+
+.btn-farm-outline {
+  border: 1.5px solid #2e7d32;
+  color: #2e7d32;
+  background: transparent;
+  font-weight: 600;
+  border-radius: var(--radius-sm);
+  padding: 0.55rem 1.25rem;
+  transition: all 0.2s ease;
+}
+
+.btn-farm-outline:hover {
+  background: #e8f5e9;
+  color: #1b5e20;
+}
+
+/* Custom Table Styles */
+.farm-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.farm-table th {
+  background-color: #f8fafc;
+  color: #64748b;
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 0.85rem 1rem;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.farm-table td {
+  padding: 0.95rem 1rem;
+  vertical-align: middle;
+  border-bottom: 1px solid #f1f5f9;
+  font-size: 0.9rem;
+}
+
+.farm-table tbody tr:hover {
+  background-color: #f9fbf9;
+}
+
+/* Status Badges */
+.badge-status {
+  padding: 0.35rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.badge-growing, .badge-in-progress {
+  background-color: #dcfce7;
+  color: #15803d;
+}
+
+.badge-harvested, .badge-completed {
+  background-color: #e0e7ff;
+  color: #4338ca;
+}
+
+.badge-planned, .badge-pending {
+  background-color: #fef3c7;
+  color: #b45309;
+}
+
+.badge-danger {
+  background-color: #fee2e2;
+  color: #b91c1c;
+}
+
+/* Stat Card */
+.stat-card-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.icon-bg-green {
+  background: #dcfce7;
+  color: #16a34a;
+}
+
+.icon-bg-blue {
+  background: #e0f2fe;
+  color: #0284c7;
+}
+
+.icon-bg-amber {
+  background: #fef3c7;
+  color: #d97706;
+}
+
+.icon-bg-purple {
+  background: #f3e8ff;
+  color: #9333ea;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}

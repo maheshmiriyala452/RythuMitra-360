@@ -1,0 +1,628 @@
+{
+  "farmers": [
+    {
+      "id": "1",
+      "name": "Mahesh Kumar Reddy",
+      "phone": "9876543210",
+      "email": "mahesh.reddy@rythumitra.in",
+      "farmName": "Sri Venkateswara Smart Farms",
+      "location": "Guntur District, Andhra Pradesh",
+      "totalArea": 15.5,
+      "soilType": "Black Cotton Soil & Red Sandy Loam",
+      "preferredLanguage": "Telugu & English",
+      "joinedDate": "2024-06-10",
+      "irrigationType": "Drip Irrigation & Borewell"
+    }
+  ],
+  "crops": [
+    {
+      "id": "crop-1",
+      "name": "Paddy (Rice)",
+      "variety": "BPT 5204 (Samba Mahsuri)",
+      "season": "Kharif (Monsoon)",
+      "areaAcres": 5,
+      "plantingDate": "2026-07-15",
+      "expectedHarvestDate": "2026-11-20",
+      "status": "Growing",
+      "notes": "System of Rice Intensification (SRI) method. Excellent vegetative growth."
+    },
+    {
+      "id": "crop-2",
+      "name": "Guntur Red Chilli",
+      "variety": "Teja 441 Premium",
+      "season": "Rabi (Winter)",
+      "areaAcres": 3.5,
+      "plantingDate": "2026-09-01",
+      "expectedHarvestDate": "2027-02-15",
+      "status": "Growing",
+      "notes": "High capsicum content variety. Drip fertigation scheduled weekly."
+    },
+    {
+      "id": "crop-3",
+      "name": "Cotton",
+      "variety": "Bt Cotton Bollgard II",
+      "season": "Kharif (Monsoon)",
+      "areaAcres": 3,
+      "plantingDate": "2026-06-25",
+      "expectedHarvestDate": "2026-12-10",
+      "status": "Growing",
+      "notes": "Boll formation stage. Regular pest scouting in progress."
+    },
+    {
+      "id": "crop-4",
+      "name": "Maize (Corn)",
+      "variety": "Pioneer 3396 Hybrid",
+      "season": "Rabi (Winter)",
+      "areaAcres": 2,
+      "plantingDate": "2026-10-05",
+      "expectedHarvestDate": "2027-01-25",
+      "status": "Planned",
+      "notes": "Bed preparation and furrow making completed."
+    },
+    {
+      "id": "crop-5",
+      "name": "Turmeric",
+      "variety": "Prathibha IISR",
+      "season": "Kharif (Monsoon)",
+      "areaAcres": 2,
+      "plantingDate": "2025-06-18",
+      "expectedHarvestDate": "2026-03-10",
+      "status": "Harvested",
+      "notes": "High curcumin variety. Rhizomes cured and stored."
+    },
+    {
+      "id": "crop-6",
+      "name": "Black Gram (Urad)",
+      "variety": "LBG-752",
+      "season": "Rabi (Winter)",
+      "areaAcres": 1.5,
+      "plantingDate": "2025-11-15",
+      "expectedHarvestDate": "2026-02-28",
+      "status": "Harvested",
+      "notes": "Zero tillage pulse crop planted in paddy stubbles."
+    },
+    {
+      "id": "crop-7",
+      "name": "Groundnut (Peanut)",
+      "variety": "Kadiri-6 (K6)",
+      "season": "Zaid (Summer)",
+      "areaAcres": 1.5,
+      "plantingDate": "2026-01-10",
+      "expectedHarvestDate": "2026-05-15",
+      "status": "Harvested",
+      "notes": "Pod yield reached 18 quintals per acre with sprinkler irrigation."
+    }
+  ],
+  "activities": [
+    {
+      "id": "act-1",
+      "cropId": "crop-1",
+      "cropName": "Paddy (Rice)",
+      "title": "Secondary Field Irrigation & Water Standing Check",
+      "category": "Irrigation",
+      "dueDate": "2026-10-18",
+      "status": "In Progress",
+      "priority": "High",
+      "notes": "Maintain 3-5 cm shallow standing water during tillering."
+    },
+    {
+      "id": "act-2",
+      "cropId": "crop-2",
+      "cropName": "Guntur Red Chilli",
+      "title": "Neem Oil Bio-Spray for Thrips Prevention",
+      "category": "Pesticide Spray",
+      "dueDate": "2026-10-20",
+      "status": "Pending",
+      "priority": "High",
+      "notes": "Mix 5ml neem oil (10000 ppm) per liter of water."
+    },
+    {
+      "id": "act-3",
+      "cropId": "crop-1",
+      "cropName": "Paddy (Rice)",
+      "title": "Top Dressing with Urea & Muriate of Potash (MOP)",
+      "category": "Fertilizer Application",
+      "dueDate": "2026-10-22",
+      "status": "Pending",
+      "priority": "Medium",
+      "notes": "Broadcast 25kg urea and 15kg MOP per acre."
+    },
+    {
+      "id": "act-4",
+      "cropId": "crop-3",
+      "cropName": "Cotton",
+      "title": "Manual Weeding & Intercultivation",
+      "category": "Weeding",
+      "dueDate": "2026-10-25",
+      "status": "Pending",
+      "priority": "Medium",
+      "notes": "Hire 4 laborers for manual weed removal between crop rows."
+    },
+    {
+      "id": "act-5",
+      "cropId": "crop-4",
+      "cropName": "Maize (Corn)",
+      "title": "Deep Ploughing & Rotavator Bed Preparation",
+      "category": "Soil Preparation",
+      "dueDate": "2026-10-14",
+      "status": "Completed",
+      "priority": "Low",
+      "notes": "Tractor rotavator hired for 3 hours; fine tilth achieved."
+    },
+    {
+      "id": "act-6",
+      "cropId": "crop-2",
+      "cropName": "Guntur Red Chilli",
+      "title": "Erection of Yellow and Blue Sticky Traps",
+      "category": "Pesticide Spray",
+      "dueDate": "2026-10-12",
+      "status": "Completed",
+      "priority": "Medium",
+      "notes": "Installed 20 yellow and 10 blue traps per acre for vector insect monitoring."
+    },
+    {
+      "id": "act-7",
+      "cropId": "crop-2",
+      "cropName": "Guntur Red Chilli",
+      "title": "Drip Irrigation Acid Treatment & Venturi Check",
+      "category": "Irrigation",
+      "dueDate": "2026-10-28",
+      "status": "Pending",
+      "priority": "Low",
+      "notes": "Flush laterals with mild phosphoric acid to dissolve salt deposits."
+    },
+    {
+      "id": "act-8",
+      "cropId": "crop-1",
+      "cropName": "Paddy (Rice)",
+      "title": "Grain Moisture Assessment for Harvest Planning",
+      "category": "Harvesting",
+      "dueDate": "2026-11-10",
+      "status": "Pending",
+      "priority": "High",
+      "notes": "Test random panicle samples; optimal moisture is 20-22%."
+    }
+  ],
+  "expenses": [
+    {
+      "id": "exp-1",
+      "cropId": "crop-1",
+      "cropName": "Paddy (Rice)",
+      "category": "Seeds",
+      "amount": 4800,
+      "date": "2026-07-10",
+      "paymentMode": "UPI / PhonePe",
+      "notes": "4 bags of certified BPT 5204 foundation seeds from AP Seeds."
+    },
+    {
+      "id": "exp-2",
+      "cropId": "crop-1",
+      "cropName": "Paddy (Rice)",
+      "category": "Fertilizers",
+      "amount": 8200,
+      "date": "2026-07-22",
+      "paymentMode": "Cash",
+      "notes": "DAP 18:46:0 (3 bags) and Complex 20:20:0:13 (2 bags)."
+    },
+    {
+      "id": "exp-3",
+      "cropId": "crop-2",
+      "cropName": "Guntur Red Chilli",
+      "category": "Seeds",
+      "amount": 10500,
+      "date": "2026-08-28",
+      "paymentMode": "Bank Transfer",
+      "notes": "7,000 hardened hybrid chilli seedlings in pro-trays."
+    },
+    {
+      "id": "exp-4",
+      "cropId": "crop-2",
+      "cropName": "Guntur Red Chilli",
+      "category": "Irrigation",
+      "amount": 14500,
+      "date": "2026-08-30",
+      "paymentMode": "Bank Transfer",
+      "notes": "Drip lateral pipes, screen filter, and inline drippers."
+    },
+    {
+      "id": "exp-5",
+      "cropId": "crop-3",
+      "cropName": "Cotton",
+      "category": "Equipment & Machinery",
+      "amount": 6500,
+      "date": "2026-09-02",
+      "paymentMode": "Cash",
+      "notes": "Tractor ploughing and cultivator service charges (5 hours)."
+    },
+    {
+      "id": "exp-6",
+      "cropId": "crop-3",
+      "cropName": "Cotton",
+      "category": "Labor",
+      "amount": 5400,
+      "date": "2026-09-18",
+      "paymentMode": "Cash",
+      "notes": "Manual weeding wages for 6 agricultural laborers."
+    },
+    {
+      "id": "exp-7",
+      "cropId": "crop-2",
+      "cropName": "Guntur Red Chilli",
+      "category": "Pesticides",
+      "amount": 3200,
+      "date": "2026-09-25",
+      "paymentMode": "UPI / Google Pay",
+      "notes": "Cold pressed organic neem oil and sticky traps."
+    },
+    {
+      "id": "exp-8",
+      "cropId": "crop-1",
+      "cropName": "Paddy (Rice)",
+      "category": "Irrigation",
+      "amount": 2800,
+      "date": "2026-10-02",
+      "paymentMode": "Cash",
+      "notes": "Diesel for agricultural pump set during electricity load shedding."
+    },
+    {
+      "id": "exp-9",
+      "cropId": "crop-5",
+      "cropName": "Turmeric",
+      "category": "Equipment & Machinery",
+      "amount": 7500,
+      "date": "2026-03-12",
+      "paymentMode": "Cash",
+      "notes": "Turmeric boiler boiler vat and polishing drum rental."
+    },
+    {
+      "id": "exp-10",
+      "cropId": "crop-7",
+      "cropName": "Groundnut (Peanut)",
+      "category": "Transportation",
+      "amount": 3500,
+      "date": "2026-05-18",
+      "paymentMode": "UPI",
+      "notes": "Mini-truck transport to Kurnool Agricultural Yard."
+    }
+  ],
+  "sales": [
+    {
+      "id": "sale-1",
+      "cropId": "crop-5",
+      "cropName": "Turmeric",
+      "quantitySold": 45,
+      "unit": "Quintal",
+      "unitPrice": 12500,
+      "totalAmount": 562500,
+      "buyerName": "Sri Krishna Agro Traders, Nizamabad",
+      "buyerPhone": "9848011223",
+      "saleDate": "2026-03-20",
+      "paymentStatus": "Paid",
+      "notes": "Curcumin test certified > 4.5%. Direct electronic RTGS payment."
+    },
+    {
+      "id": "sale-2",
+      "cropId": "crop-6",
+      "cropName": "Black Gram (Urad)",
+      "quantitySold": 12,
+      "unit": "Quintal",
+      "unitPrice": 7800,
+      "totalAmount": 93600,
+      "buyerName": "Guntur Dal Mill Syndicate",
+      "buyerPhone": "9440122334",
+      "saleDate": "2026-03-05",
+      "paymentStatus": "Paid",
+      "notes": "Sold at premium price due to low moisture content."
+    },
+    {
+      "id": "sale-3",
+      "cropId": "crop-7",
+      "cropName": "Groundnut (Peanut)",
+      "quantitySold": 28,
+      "unit": "Quintal",
+      "unitPrice": 6600,
+      "totalAmount": 184800,
+      "buyerName": "Kurnool Oil Industries Ltd",
+      "buyerPhone": "9989044556",
+      "saleDate": "2026-05-22",
+      "paymentStatus": "Paid",
+      "notes": "Machine-threshed pods; weighed on computer weighbridge."
+    },
+    {
+      "id": "sale-4",
+      "cropId": "crop-1",
+      "cropName": "Paddy (Rice)",
+      "quantitySold": 50,
+      "unit": "Quintal",
+      "unitPrice": 2450,
+      "totalAmount": 122500,
+      "buyerName": "AP Civil Supplies Corporation (MSP)",
+      "buyerPhone": "9123456789",
+      "saleDate": "2026-10-05",
+      "paymentStatus": "Paid",
+      "notes": "Government Minimum Support Price (Grade-A Paddy procurement token)."
+    }
+  ],
+  "inventory": [
+    {
+      "id": "inv-1",
+      "itemName": "Urea Fertilizer (IFFCO)",
+      "category": "Fertilizers",
+      "quantity": 6,
+      "unit": "Bag (50kg)",
+      "reorderLevel": 10,
+      "unitCost": 268,
+      "supplierName": "Kisan Seva Kendra, Tenali",
+      "lastUpdated": "2026-10-01"
+    },
+    {
+      "id": "inv-2",
+      "itemName": "DAP 18:46:00",
+      "category": "Fertilizers",
+      "quantity": 15,
+      "unit": "Bag (50kg)",
+      "reorderLevel": 8,
+      "unitCost": 1350,
+      "supplierName": "Coromandel International Ltd",
+      "lastUpdated": "2026-09-28"
+    },
+    {
+      "id": "inv-3",
+      "itemName": "Pioneer 3396 Hybrid Maize Seed",
+      "category": "Seeds",
+      "quantity": 4,
+      "unit": "Bag (50kg)",
+      "reorderLevel": 5,
+      "unitCost": 1850,
+      "supplierName": "Pioneer Seeds Andhra",
+      "lastUpdated": "2026-10-04"
+    },
+    {
+      "id": "inv-4",
+      "itemName": "Cold Pressed Neem Oil (10000 PPM)",
+      "category": "Pesticides",
+      "quantity": 12,
+      "unit": "Liters",
+      "reorderLevel": 5,
+      "unitCost": 450,
+      "supplierName": "Sri Rama Agro Chemicals, Guntur",
+      "lastUpdated": "2026-09-15"
+    },
+    {
+      "id": "inv-5",
+      "itemName": "Battery Knapsack Sprayer (16 Liters)",
+      "category": "Tools & Equipment",
+      "quantity": 2,
+      "unit": "Units / Pieces",
+      "reorderLevel": 1,
+      "unitCost": 3200,
+      "supplierName": "Agro Tools Corporation, Vijayawada",
+      "lastUpdated": "2026-08-10"
+    },
+    {
+      "id": "inv-6",
+      "itemName": "Inline Drip Lateral Pipe (16mm, 400m coil)",
+      "category": "Irrigation Supplies",
+      "quantity": 3,
+      "unit": "Units / Pieces",
+      "reorderLevel": 2,
+      "unitCost": 2400,
+      "supplierName": "Jain Irrigation Systems",
+      "lastUpdated": "2026-08-25"
+    },
+    {
+      "id": "inv-7",
+      "itemName": "Emamectin Benzoate 5% SG",
+      "category": "Pesticides",
+      "quantity": 2,
+      "unit": "Units / Pieces",
+      "reorderLevel": 4,
+      "unitCost": 850,
+      "supplierName": "Syngenta India Depo",
+      "lastUpdated": "2026-10-02"
+    }
+  ],
+  "marketPrices": [
+    {
+      "id": "mkt-1",
+      "cropName": "Guntur Red Chilli (Teja)",
+      "marketName": "Guntur Mirchi Yard",
+      "district": "Guntur",
+      "state": "Andhra Pradesh",
+      "modalPricePerQuintal": 21500,
+      "minPrice": 18500,
+      "maxPrice": 23800,
+      "priceTrend": "up",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "mkt-2",
+      "cropName": "Paddy (Grade A)",
+      "marketName": "Miryalaguda Agricultural Yard",
+      "district": "Nalgonda",
+      "state": "Telangana",
+      "modalPricePerQuintal": 2480,
+      "minPrice": 2350,
+      "maxPrice": 2550,
+      "priceTrend": "stable",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "mkt-3",
+      "cropName": "Cotton (Medium Staple)",
+      "marketName": "Khammam Cotton Market",
+      "district": "Khammam",
+      "state": "Telangana",
+      "modalPricePerQuintal": 7450,
+      "minPrice": 6900,
+      "maxPrice": 7800,
+      "priceTrend": "up",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "mkt-4",
+      "cropName": "Turmeric (Finger)",
+      "marketName": "Nizamabad Turmeric Yard",
+      "district": "Nizamabad",
+      "state": "Telangana",
+      "modalPricePerQuintal": 13200,
+      "minPrice": 11800,
+      "maxPrice": 14500,
+      "priceTrend": "up",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "mkt-5",
+      "cropName": "Maize (Yellow Corn)",
+      "marketName": "Warangal Enumamula Mandi",
+      "district": "Warangal",
+      "state": "Telangana",
+      "modalPricePerQuintal": 2240,
+      "minPrice": 2050,
+      "maxPrice": 2360,
+      "priceTrend": "down",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "mkt-6",
+      "cropName": "Bengal Gram (Chana)",
+      "marketName": "Kurnool Agricultural Yard",
+      "district": "Kurnool",
+      "state": "Andhra Pradesh",
+      "modalPricePerQuintal": 6400,
+      "minPrice": 5900,
+      "maxPrice": 6700,
+      "priceTrend": "stable",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "mkt-7",
+      "cropName": "Groundnut (Pods)",
+      "marketName": "Anantapur APMC Mandi",
+      "district": "Anantapur",
+      "state": "Andhra Pradesh",
+      "modalPricePerQuintal": 6750,
+      "minPrice": 6200,
+      "maxPrice": 7100,
+      "priceTrend": "up",
+      "date": "2026-10-14"
+    }
+  ],
+  "weather": [
+    {
+      "id": "weather-current",
+      "location": "Guntur Agro-Climatic Zone, AP",
+      "district": "Guntur",
+      "currentTemp": 29,
+      "feelsLike": 32,
+      "condition": "Partly Cloudy with Humid Breeze",
+      "humidity": 74,
+      "rainfallProbability": 25,
+      "windSpeed": "14 km/h ENE",
+      "uvIndex": 6,
+      "soilMoistureEstimate": "68% (Adequate)",
+      "advisory": "Optimal conditions for foliar bio-pesticide spray today. Postpone heavy flooding irrigation due to 25% evening precipitation probability.",
+      "lastUpdated": "Today, 11:30 AM",
+      "forecast": [
+        {
+          "day": "Today",
+          "date": "15 Oct",
+          "tempMax": 32,
+          "tempMin": 24,
+          "condition": "Partly Cloudy",
+          "rainChance": 25,
+          "icon": "bi-cloud-sun"
+        },
+        {
+          "day": "Fri",
+          "date": "16 Oct",
+          "tempMax": 30,
+          "tempMin": 23,
+          "condition": "Scattered Showers",
+          "rainChance": 60,
+          "icon": "bi-cloud-rain"
+        },
+        {
+          "day": "Sat",
+          "date": "17 Oct",
+          "tempMax": 31,
+          "tempMin": 23,
+          "condition": "Light Rain",
+          "rainChance": 45,
+          "icon": "bi-cloud-drizzle"
+        },
+        {
+          "day": "Sun",
+          "date": "18 Oct",
+          "tempMax": 33,
+          "tempMin": 24,
+          "condition": "Sunny / Clear",
+          "rainChance": 10,
+          "icon": "bi-sun"
+        },
+        {
+          "day": "Mon",
+          "date": "19 Oct",
+          "tempMax": 34,
+          "tempMin": 25,
+          "condition": "Clear Sky",
+          "rainChance": 10,
+          "icon": "bi-brightness-high"
+        },
+        {
+          "day": "Tue",
+          "date": "20 Oct",
+          "tempMax": 32,
+          "tempMin": 24,
+          "condition": "Partly Cloudy",
+          "rainChance": 20,
+          "icon": "bi-cloud-sun"
+        },
+        {
+          "day": "Wed",
+          "date": "21 Oct",
+          "tempMax": 31,
+          "tempMin": 23,
+          "condition": "Overcast",
+          "rainChance": 35,
+          "icon": "bi-clouds"
+        }
+      ]
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1",
+      "title": "Low Stock Alert: Urea Fertilizer",
+      "message": "Only 6 bags of IFFCO Urea remain in inventory (Reorder threshold is 10 bags).",
+      "type": "warning",
+      "timestamp": "2026-10-15T09:30:00Z",
+      "isRead": false
+    },
+    {
+      "id": "notif-2",
+      "title": "Upcoming Farming Task",
+      "message": "Secondary irrigation for Paddy (Rice) field is due on 18 Oct 2026.",
+      "type": "info",
+      "timestamp": "2026-10-14T14:15:00Z",
+      "isRead": false
+    },
+    {
+      "id": "notif-3",
+      "title": "Market Price Hike: Guntur Red Chilli",
+      "message": "Teja Chilli price gained ₹450/quintal at Guntur Mirchi Yard, currently at ₹21,500.",
+      "type": "success",
+      "timestamp": "2026-10-14T11:00:00Z",
+      "isRead": true
+    },
+    {
+      "id": "notif-4",
+      "title": "Weather Advisory for Spraying",
+      "message": "Light showers likely on Friday afternoon. Complete foliar fertilizer application before noon.",
+      "type": "warning",
+      "timestamp": "2026-10-13T16:45:00Z",
+      "isRead": true
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
