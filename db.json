@@ -2,12 +2,12 @@
   "farmers": [
     {
       "id": "1",
-      "name": "Mahesh Kumar Reddy",
+      "name": "Miriyala Srinuvasarao",
       "phone": "9876543210",
       "email": "mahesh.reddy@rythumitra.in",
       "farmName": "Sri Venkateswara Smart Farms",
       "location": "Guntur District, Andhra Pradesh",
-      "totalArea": 15.5,
+      "totalArea": 4,
       "soilType": "Black Cotton Soil & Red Sandy Loam",
       "preferredLanguage": "Telugu & English",
       "joinedDate": "2024-06-10",
@@ -91,6 +91,17 @@
       "expectedHarvestDate": "2026-05-15",
       "status": "Harvested",
       "notes": "Pod yield reached 18 quintals per acre with sprinkler irrigation."
+    },
+    {
+      "name": "Test Maize",
+      "variety": "Demo 1",
+      "season": "Kharif (Monsoon)",
+      "areaAcres": 1,
+      "plantingDate": "2026-06-01",
+      "expectedHarvestDate": "2026-11-01",
+      "status": "Growing",
+      "notes": "Test entry — delete after checking",
+      "id": "ev6P0Vv8FbI"
     }
   ],
   "activities": [
