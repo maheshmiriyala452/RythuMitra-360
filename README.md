@@ -322,7 +322,7 @@ Here are the top questions and answers examiners frequently ask during major pro
 
 ## 👨‍💻 Author & Acknowledgments
 
-- **Developer:** Mahesh Kumar Reddy
+- **Developer:** Mahesh Miriyala
 - **Course:** Python Full Stack Development
 - **Institute:** **Codegnan IT Solutions**
 - **Mentor:** Antigravity AI Senior Architect & Pair Programmer
